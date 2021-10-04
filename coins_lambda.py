@@ -207,8 +207,8 @@ def lambda_handler():
 
     try:
 
-        client = _connect_mongo(host='46.137.229.252', port=27017,
-                                username='admin', password='keyfi_admin_123', db='keyfi')
+        client = _connect_mongo(host='', port=27017,
+                                username='', password='', db='')
         client_db = client["keyfi"]
         client_col = client_db['coins']
         print('Connection Successful')
